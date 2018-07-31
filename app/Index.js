@@ -3,4 +3,4 @@ var ReactDOM = require('react-dom');
 //require('./index.css');
 //const Hello = require('./components/Hello');
 
-ReactDOM.render(return("<h1>Hello, World!</h1>"), document.getElementById('hello'));
+ReactDOM.render(<h1>Hello, World!</h1>, document.getElementById('hello'));

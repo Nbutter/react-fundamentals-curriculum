@@ -1,7 +1,7 @@
 const React = require('react');
 const ReactDOM = require('react-dom');
 
-class App extends React.Component {
+class Hello extends React.Component {
   render() {
     return (
       <div className='container'>
@@ -10,3 +10,5 @@ class App extends React.Component {
     )
   }
 }
+
+module.exports=Hello;
