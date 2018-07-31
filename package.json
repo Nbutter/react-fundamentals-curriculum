@@ -5,14 +5,21 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack -w",
+    "start": "webpack-dev-server --open",
     "test": "ava 'app/**/*test.js' --verbose --require ./other/setup-ava-tests.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Nbutter/react-fundamentals-curriculum.git"
   },
-  "author": "",
+  "author": "Nicholas Butterworth, but really Tyler McGinnis",
   "license": "ISC",
+  "babel": {
+    "presets": [
+      "env",
+      "react"
+    ]
+  },
   "bugs": {
     "url": "https://github.com/Nbutter/react-fundamentals-curriculum/issues"
   },
