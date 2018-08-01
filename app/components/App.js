@@ -1,18 +1,12 @@
 const React = require('react');
 const ReactDOM = require('react-dom');
-const Nav = require('./Nav');
-const Main = require('./Main');
+const Home = require('./Home');
 
 class App extends React.Component {
-  render() {
-    return (
-    	<div className='container'>
-    		<Nav />
-    		<Main />
-    	</div>
-
-    )
-  }
+  render() { 
+  	return (
+  		<Home /> )
+  }  		
 }
 
 module.exports=App;

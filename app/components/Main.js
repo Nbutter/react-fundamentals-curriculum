@@ -1,11 +1,14 @@
 const React = require('react');
 const ReactDOM = require('react-dom');
+const MainHeader = require('./MainHeader');
+const FormContainer = require('./FormContainer')
 
 class Main extends React.Component {
   render() {
     return (
       <div className='main'>
-        <h1>MAIN</h1>
+        <MainHeader />
+        <FormContainer />
       </div>
     )
   }
