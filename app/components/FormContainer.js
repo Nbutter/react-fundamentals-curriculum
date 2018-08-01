@@ -4,11 +4,11 @@ const ReactDOM = require('react-dom');
 class FormContainer extends React.Component {
   render() {
     return (
-      <div className='container'>
+      <div className='zipcode-container'>
         <form>
         	<input type='text' placeholder='City, State'>
         	</input>
-        	<button>
+        	<button className='button' type='submit'>
         		Get Weather
         	</button>
         </form>

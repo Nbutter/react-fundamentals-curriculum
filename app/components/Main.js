@@ -6,7 +6,7 @@ const FormContainer = require('./FormContainer')
 class Main extends React.Component {
   render() {
     return (
-      <div className='main'>
+      <div className='home-container'>
         <MainHeader />
         <FormContainer />
       </div>
