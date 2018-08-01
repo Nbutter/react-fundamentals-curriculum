@@ -5,7 +5,13 @@ class FormContainer extends React.Component {
   render() {
     return (
       <div className='container'>
-        <h3>Form Container</h3>
+        <form>
+        	<input type='text' placeholder='City, State'>
+        	</input>
+        	<button>
+        		Get Weather
+        	</button>
+        </form>
       </div>
     )
   }
