@@ -1,6 +1,6 @@
 const React = require('react');
 const ReactDOM = require('react-dom');
 require('./index.css');
-const Hello = require('./components/Hello');
+const App = require('./components/App');
 
-ReactDOM.render(<Hello />, document.getElementById('hello'));
+ReactDOM.render(<App />, document.getElementById('app'));
